@@ -180,6 +180,7 @@ public class Day_11 {
         
         System.out.println("PART II");
         int k=0;
+        setMap(lines);
         while(true){
             for(int i=0; i<n; i++){
                 for(int j=0; j<n; j++){
