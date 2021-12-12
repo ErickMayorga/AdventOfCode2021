@@ -17,7 +17,7 @@ import java.util.Stack;
  */
 public class Day_12 {
 
-    private static String path = "files/RemainingCaves2.txt";
+    private static String path = "files/RemainingCaves.txt";
     private static File file = null;
     private static FileReader fr = null;
     private static BufferedReader br = null;
