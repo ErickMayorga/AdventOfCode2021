@@ -100,7 +100,7 @@ public class Graph {
  
         for (Integer i : edges[u]) {
             if (!isVisited[i]) {
-                if((contNodes(path,i)<2 || isUpperCase(nodes.get(i)))){
+                if((path.contains(i) || isUpperCase(nodes.get(i)))){
                     path.add(i);
                 }
                 recursivePaths(i, d, isVisited, path);
